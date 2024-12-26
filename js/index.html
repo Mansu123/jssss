@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shakib M. Dipto</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+        <nav class="flex items-center justify-between" id="nav">
+            <div class="left flex items-center">
+                
+                <div>
+                    <a href="#quotes">Quotes</a>
+                    <a href="#converter">Weight Conversion</a>
+                    <a href="#numSeries">Numeric Series</a>
+                    <a href="#magic">Magic!</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section id="quotes" class="quotes">
+        <div id="container" class="container">
+            <div id="card-container">
+                <div id="output"></div>
+                <button id="q-btn"class="q-btn btn-secondary">Next Quotes</button>
+            </div>
+            <div class="color items-center">
+                <button id="def-btn"></button>
+                <button id="red-btn"></button>
+                <button id="yellow-btn"></button>
+                <button id="blue-btn"></button>
+                <button id="green-btn"></button>
+                <h4>Click to change color!</h4>
+            </div>
+            <script src="./js/quotes.js"></script>
+            </div>
+        </div>
+    </section>
+    <section class="numSeries" id="numSeries">
+        <h1>Number Series <span>Calculator</span></h1>
+        <div class="container">
+            <div class="card-container">
+                <table  border="0">
+                    <tr>
+                      <td class="textstyle" >Input Series of Number: (separated by space)</td>
+                      <td><input name="box1" type="text" id="box1" class="textstyle" style="width: 350px;" value="" /></td>
+                    </tr>
+                    <tr>
+                      <td>&nbsp;</td>
+                      <td></td>
+                    </tr>
+                    <br>
+                    <tr>
+                      <td class="textstyle">Max number in current series :</td>
+              
+                      <td><div id="max" class="textstyle"> </div></td>
+                    </tr>
+                    <br>
+                    <tr>
+                      <td class="textstyle">Min number in current series :</td>
+                      <td><div id="min" class="textstyle"> </div></td>
+                    </tr>
+                    <br>
+                    <tr>
+                      <td class="textstyle">Sum of the current series  :</td>
+                      <td><div id="sum" class="textstyle"> </div></td>
+                    </tr>
+                    <br>
+                    <tr>
+                      <td class="textstyle">Average of the current series :</td>
+                      <td><div id="avg" class="textstyle"> </div></td>
+                    </tr>
+                    
+                    <tr>
+                      <td class="textstyle">Reverse Order of current series :</td>
+                      <td><div id="rev" class="textstyle"> </div></td>
+                    </tr>
+              
+                    <tr>
+                      <td>&nbsp;</td>
+                      <td></td>
+                    </tr>
+                </table>
+            </div>
+            <div class="btn-container">
+                <button class= "btn btn-secondary" id="calculate"onclick="calculate()">Calculate</button>
+            </div>
+        </div>
+          <script src="./js/numSeries.js"></script>
+    </section>
+    <footer>
+        <div class="social">
+        <div class="copyright">
+            © 2024 Shakib M. Dipto. All rights reserved.
+        </div>
+        <div class="last-mod">
+            Last Modified: 
+            <script type="text/javascript">
+                function lastMod() {
+                    document.write(document.lastModified);
+                }
+                lastMod();   
+            </script>
+            
+        </div>
+    </footer>
+</body>
+</html>

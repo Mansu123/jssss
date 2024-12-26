@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+.flex{
+    display: flex;
+}
+.items-center{
+    align-items: center;
+}
+.justify-between{
+    justify-content: space-between;
+}
+.btn{
+    padding: 0.8rem 3rem;
+    font-size: 1rem;
+    font-weight: 600;
+    border: 2px solid transparent;
+    outline: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: all .3s ease;
+}
+.q-btn{
+    padding: 0.8rem 3rem;
+    font-size: 1rem;
+    font-weight: 600;
+    border: 2px solid transparent;
+    outline: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: all .3s ease;
+    margin-top: 2rem;
+}
+.btn-primary{
+    background: var(--theme);
+}
+.btn-primary:hover{
+    background: transparent;
+    border-color: var(--theme);
+    color: var(--theme);
+}
+.btn-secondary{
+    padding: 0.5rem 2rem;
+    background: transparent;
+    color:var(--fadeBlack);
+    border-color: var(--fadeBlack);
+}
+.btn-secondary:hover{
+    background: var(--fadeBlack);
+    color: var(--white);
+}
+.btn-secondary-2{
+    padding: 0.5rem 2rem;
+    background: white;
+    color:black;
+    border-radius: 15rem;
+    margin-left: 10px;
+    font-size: 0.9rem;
+}
+.btn-secondary-2:hover{
+    background: var(--theme);
+    color: var(--fadeBlack);
+}
+.magic-btn{
+    background-color:var(--fadeBlack);
+    padding: 0.5rem 1rem;
+    margin-top: 2rem;
+    border-radius: 3rem;
+    cursor: pointer;
+    color: white;
+    font-family: 'Poppins' ,sans-serif;
+    font-weight: 0.5rem;
+}
+.magic-btn:hover{
+    background: transparent;
+    color:black;
+    border: 2px solid black;
+}
+#red-btn{
+	background-color:#fd4659;
+    padding: 0.8rem 2rem;
+    margin-top: 5rem;
+    border-radius: 3rem;
+    cursor: pointer;
+}
+#blue-btn{
+	background-color:#93ccea;
+	padding: 0.8rem 2rem;
+    margin-top: 5rem;
+    border-radius: 3rem;
+    cursor: pointer;
+}
+#green-btn{
+	background-color:#a1d7c9;
+	padding: 0.8rem 2rem;
+    margin-top: 5rem;
+    border-radius: 3rem;
+    cursor: pointer;
+}
+#yellow-btn{
+	background-color: #faf0db;
+	padding: 0.8rem 2rem;
+    margin-top: 5rem;
+    border-radius: 3rem;
+    cursor: pointer;
+}
+#def-btn{
+    background: transparent;
+    padding: 0.8rem 2rem;
+    margin-top: 5rem;
+    border-radius: 3rem;
+    cursor: pointer;
+}
+.flex-1{
+    flex:0.4;
+}
+.flex-txt{
+    flex:0.5;
+}
+.justify-center{
+    justify-content: center;
+}

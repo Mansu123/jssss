@@ -1,0 +1,327 @@
+@import 'util.css';
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins' ,sans-serif;
+}
+:root{
+    --theme:#3DCFD3;
+    --fadeBlack: #161616;
+    --white: #ffffff;
+    --gray: #898989;
+    --light: #f2f2f2;
+    --black: #070606;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-font-smotthing: antialiased;
+}
+header{
+    background: var(--fadeBlack);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 70% 90%, 0 95.5%);
+}
+.container{
+    max-width: 1152px;
+    padding:0 15px ;
+    margin: 0 auto;
+}
+.btn-container{
+    text-align: center;
+
+}
+header nav a{
+    color:var(--white);
+    text-decoration: none;
+    margin-right: 2rem;
+    text-transform: uppercase;
+    transition: all .3s  ease;
+}
+header nav a:hover{
+    color: var(--theme);
+}
+header nav{
+    padding: 2rem 0;
+    align-items: center;
+}
+header nav .logo{
+    margin-right: 3rem;
+}
+.hero{
+    padding: 3rem 0;
+}
+.hero .left img{
+    width: 450px;
+}
+.hero .right{
+    color: var(--white);
+} 
+.hero .right h6{
+    font-size: 1.6rem;
+    color: var(--theme);
+    margin-bottom: 0.5rem;
+}
+.hero .right h1{
+    font-size: 4rem;
+    font-weight: 100;
+    line-height: 1.2;
+    margin-bottom: 2rem;
+}
+.hero .right h1 span{
+    color: var(--theme);
+}
+.hero .right p{
+    line-height: 1.9;
+    margin-bottom: 2rem;
+}
+.hero .right{
+    margin: -7rem;
+}
+section{
+    padding: 6rem 0;
+}
+section.about .about-me-image{
+    height: 400px;
+}
+section.about h1{
+    margin-bottom: 1rem;
+    font-size: 1.6rem;
+    font-weight: 400;   
+}
+section.about h1 span{
+    color: var(--theme);
+}
+section.about h3{
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    font-weight: 400;
+}
+section.about p{
+    font-family: 'Lato', sans-serif;
+    color: var(--gray);
+    line-height: 1.9;
+    margin-bottom: 2rem;
+}
+section.about .social{
+    display: flex;
+}
+section.about .social a{
+    background: var(--fadeBlack);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin-right: 0.6rem;
+    transition: all .1s ease-in-out;
+}
+section.about .social a:hover{
+    background: var(--theme);
+}
+section.about .social a img{
+    width: 100%;
+    height: 100%;
+    padding: 0.5rem;
+}
+.section-heading{
+    color: var(--black);
+    text-align: center;
+    margin-bottom: 1rem;
+    line-height: 0.5;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+.section-heading + p{
+    color: var(--fadeBlack);
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 8rem;
+    text-align: center;
+}
+.section-heading span{
+    color: var(--theme);
+    font-weight: 600;
+}
+section.quotes{
+    background: var(--light);
+}
+section.quotes .container{
+    background: transparent;
+    padding-top: 5rem;
+    margin-bottom: 0.5rem;
+	height: 280px;
+	width: 750px;
+	border: 5px solid var(--fadeBlack);
+    text-align: center;
+    font-size: 1.2rem;
+}
+section.quotes .card-container{
+    padding: 2rem;
+}
+
+
+section.converter{
+    text-align: center;
+    background: var(--fadeBlack);
+    
+    color: var(--white);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 67% 80%, 0 100%);
+    padding-bottom: 10rem;
+}
+
+section.converter h1{
+    margin-bottom: 1rem;
+    font-size: 1.6rem;
+    font-weight: 400;   
+}
+section.converter h1 span{
+    color: var(--white);
+    font-weight: 400;
+    font-size: 1.6rem;
+}
+section.converter h1{
+    font-size: 2rem;
+    margin-top: 0%;
+    margin-bottom: 1.5rem;
+    color: var(--theme);
+}
+section.converter .result{
+    color: white;
+}
+section.converter .covert-btn{
+    margin-bottom: 3rem;
+}
+section.converter span{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+
+}
+section.numSeries h1{
+    margin-bottom: 1rem;
+    font-size: 1.6rem;
+    font-weight: 400;   
+    text-align: center;
+}
+section.numSeries h1 span{
+    color: var(--theme);
+    font-size: 2rem;
+    font-weight: 500;
+}
+section.magic{
+    background: var(--light);
+}
+section.magic h1{
+    margin-bottom: 1rem;
+    font-size: 1.6rem;
+    font-weight: 400;   
+    color: var(--black);
+    text-align: center;
+}
+section.magic h1 span{
+    color:var(--theme);
+    font-size: 2rem;
+    font-weight: 500;
+}
+section.magic .container{
+    text-align: center;
+}
+#inputTextArea{
+	font-family : 'Lato', sans-serif;
+	margin-left : 10px;
+	margin-right: 10px;
+	font-style: bold;
+	font-size: 1.5rem;
+}
+#input{
+	font-family: 'Lato', sans-serif;
+	margin-left: 10px;
+	font-size: 1.5rem;
+	text-align: center;
+}
+#inputType{
+	font-family: 'Lato', sans-serif;
+	width: 140px;
+	height: 35px;
+	font-size: 1.5rem;
+	margin-top: 5px;
+	margin-left: 10px;
+	margin-bottom: 20px;
+	color: black;
+	text-align: center;
+}
+footer{
+    background: var(--fadeBlack);
+    text-align: center;
+    padding: 5rem 0;
+}
+footer .footer-logo{
+    margin-bottom: 1rem;
+}
+footer .copyright{
+    color: var(--white);
+}
+footer .last-mod {
+    font-family: 'Lato', sans-serif;
+    font-size: 1rem;
+    color: var(--theme);
+    margin-top: 2rem;
+}
+footer .social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer .social a{
+    background: var(--fadeBlack);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 0.6rem;
+    transition: all .1s ease-in-out;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+footer .social a:hover{
+    background: var(--theme);
+}
+footer .social a img{
+    width: 100%;
+    height: 100%;
+    padding: 0.5rem;
+    text-align: center;
+}
+footer .me{
+    border-radius: 50%;
+}
+
+.load{
+    animation: loading 0.7s linear;
+}
+@keyframes animate{
+    0%{
+        background-position: 0 0;
+    }
+    100%{
+        background-position: 30px 0;
+    }
+}
+@keyframes loading{
+    0%{
+        width: 0%;
+    }
+}
